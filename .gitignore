@@ -1,0 +1,64 @@
+# Python
+**pycache**/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+# Test / Tool Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+.coverage
+.coverage.*
+htmlcov/
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment / Secrets
+.env
+.env.*
+
+!.env.example
+!.env.sample
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kafka / Spark / Local Data
+kafka-data/
+spark-data/
+
+# Output
+data/
+output/
+
+# Logs / Runtime
+*.log
+logs/
+*.pid
+
+# IDE / Editor
+.vscode/
+.idea/
+
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
